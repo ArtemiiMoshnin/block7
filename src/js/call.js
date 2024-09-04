@@ -14,8 +14,8 @@
  let blurFeedback = document.querySelector( '.call-blur-active');
  
 //Это чтобы экран вниз не листался
- let notFixed = document.querySelector( '.page-container');
- let Fixed = document.querySelector( '.page-container-fixed');
+//  let notFixed = document.querySelector( '.page-container');
+//  let Fixed = document.querySelector( '.page-container-fixed');
  
   
 //Кнопка чтобы все отключить
@@ -27,8 +27,8 @@
  noBlurFeedback.classList.add('call-blur');
  blurFeedback.classList.remove('call-blur-active');
   
- notFixed.classList.add('page-container');
- Fixed.classList.remove('page-container-fixed');
+//  notFixed.classList.add('page-container');
+//  Fixed.classList.remove('page-container-fixed');
 })
   
 //Нажимаю кнопку в хедере
@@ -40,8 +40,8 @@
  noBlurFeedback.classList.remove('call-blur');
  blurFeedback.classList.add('call-blur-active');
  
- notFixed.classList.remove('page-container');
- Fixed.classList.add('page-container-fixed');
+//  notFixed.classList.remove('page-container');
+//  Fixed.classList.add('page-container-fixed');
  })
  
 //Нажимаю кнопку в меню
@@ -54,8 +54,8 @@
  noBlurFeedback.classList.remove('call-blur');
  blurFeedback.classList.add('call-blur-active');
  
- notFixed.classList.remove('page-container');
- Fixed.classList.add('page-container-fixed');
+//  notFixed.classList.remove('page-container');
+//  Fixed.classList.add('page-container-fixed');
 }) 
 
  
@@ -69,6 +69,6 @@
  
  
 //Если отключаю блюр, то fix экрана тоже отключается
- notFixed.classList.add('page-container');
- Fixed.classList.remove('page-container-fixed');
+//  notFixed.classList.add('page-container');
+//  Fixed.classList.remove('page-container-fixed');
  })
