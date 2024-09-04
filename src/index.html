@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+
+  <div class = "page-container page-container-fixed">
+
+    <aside class = "feedback">
+        <div class = "feedback__container feedback__container-active">
+            
+            <div class = "feedback__container-text-highlight">
+                <h1 class="feedback__title title">Обратная связь</h1>
+                <button type="button" class="feedback__cancel"></button>
+            </div>
+
+            <form action="#" method="post" class="feedback__form">
+                <input type= "text" name = "name" value= "Имя" class="feedback__name-input">
+                <input type= "tel" name = "tel" value= "Телефон" class="feedback__tel-input">
+                <input type= "text" name = "mail" value= "Почта" class="feedback__mail-input">
+                <textarea name = "message" rows = "1" class="feedback__message-input">Сообщение</textarea> 
+            </form>
+
+            <p class = "feedback__consent">Нажимая “отправить”, вы даете согласие на <a class= "feedback__personal-data-link"> обработку персональных данных</a> и соглашаетесь с нашей <a class= "feedback__policy-link">политикой конфиденциальности</a></p>
+            <button type = "button" class= "feedback__button"></button>
+
+        </div>
+        <div class ="feedback-blur feedback-blur-active" ></div>
+    </aside>
+
+    <aside class = "call">
+        <div class = "call__container call__container-active">
+            
+            <div class = "call__container-text-highlight">
+                <h1 class="call__title title">Заказать звонок</h1>
+                <button type="button" class="call__cancel"></button>
+            </div>
+
+            <form action="#" method="post" class="feedback__form">
+                <input type= "tel" name = "tel" value= "Телефон" class="call__tel-input">
+
+            </form>
+
+            <p class = "call__consent">Нажимая “отправить”, вы даете согласие на <a class= "call__personal-data-link"> обработку персональных данных</a> и соглашаетесь с нашей <a class= "call__policy-link">политикой конфиденциальности</a></p>
+            <button type = "button" class= "call__button"></button>
+
+        </div>
+        <div class ="call-blur call-blur-active" ></div>
+    </aside>
+
+
+    <div class = "page-wrapper">
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__nav">
+              
+              <button type="button" class="header__burger"></button>
+             
+              <a class="header__cps">
+                  <div class="header__cps-img"></div>
+              </a>
+
+              <a href="#" class="header__call">
+                  <div class="header__call-img"></div>
+              </a>
+
+              <a href="#" class="header__chat">
+                  <div class="header__chat-img"></div>
+              </a>
+
+              <a href="#" class="header__profile">
+                  <div class="header__profile-img"></div>
+              </a>
+              
+              <a href="#" class="header__repair">
+                  <div class="header__repair-img"></div>
+              </a>
+             
+              <a href="#" class="header__checkstatus">
+                  <div class="header__checkstatus-img"></div>
+              </a> 
+
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__container">             
+        <div class="main__titile-container">
+            
+            <div class="main__container-text-highlight">
+            <h1 class="main__title title">Услуги и сервисы</h1>
+            </div>
+        
+            <div class="main__container-links">
+
+                <a href="#" class="main__repair">
+                   Оставить заявку
+                   <div class="main__repair-img"></div>
+                </a> 
+
+                <a href="#" class="main__checkstatus">
+                   Статус ремонта
+                   <div class="main__checkstatus-img"></div>
+                </a>
+
+            </div>    
+        </div> 
+
+        <div class="main__slide-container">
+            <ul class="main__slide-menu slide-menu">
+                <li class="slide-menu__item slide-menu__item--autofocus">
+                    <a href="#" class="slide-menu__link">Ремонтируемые устройства</a></li>
+                <li class="slide-menu__item">
+                    <a href="#" class="slide-menu__link">Ремонтируемые бренды</a></li>
+                <li class="slide-menu__item">
+                    <a href="#" class="slide-menu__link">Цены на услуги</a></li>
+                <li class="slide-menu__item">
+                    <a href="#" class="slide-menu__link">Адреса сервисных центров</a></li>
+                <li class="slide-menu__item">
+                    <a href="#" class="slide-menu__link">Специальные цены</a></li>
+                    <li class="slide-menu__item">
+                        <a href="#" class="slide-menu__link">Отзывы</a></li>
+            </ul>      
+        </div>
+    
+        <div class="main__containers-block">   
+          <div class="main__flex-column-container">
+         
+           <div class="main__text-container">
+           <p class="main__part-one">Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+               Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+           </p>
+           <br>
+           <p class="main__part-two">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+               что подтверждает большое количество постоянных клиентов. Мы гордимся тем, 
+               что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+           </p>
+           </div> 
+           
+           <button type="button" class="main__read-more">Читать далее </button>
+         
+          </div>
+         
+           <div class="main__img-container">
+               <img class="main__cps-img-big" src="./img/Picture.jpg" alt="CPS">
+           </div>
+
+        </div>  
+
+
+
+        <div class = "header-block">
+            <div class ="header-block__container">
+                <p class = "header-block__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+            </div>   
+        </div>
+
+         <div class = "main-block">
+            <nav class = "main-block__nav swiper">
+                <ul class = "main-block__ul main-ul swiper-wrapper">
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-one"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-two"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-three"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-four"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-five"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-six"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-seven"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-eight"></div><div class="main-ul__go"></div></a></li>
+                    
+                    <li class = "main-ul__li swiper-slide hide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-nine"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide hide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-ten"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li swiper-slide hide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-eleven"></div><div class="main-ul__go"></div></a></li>
+                    <li class = "main-ul__li placeholder swiper-slide hide"><a href ="#" class = "main-block__link"><div class = "main-ul__img-eleven"></div><div class="main-ul__go"></div></a></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </nav>
+            <button type = "button" class="main-block__read-more">Показать все</button>
+         </div>
+
+
+         <div class = "nheader-block">
+            <div class ="nheader-block__container">
+                <p class = "nheader-block__text">РЕМОНТ ТЕХНИКИ ВИДОВ ТЕХНИКИ</p>
+            </div>   
+         </div>
+
+         <div class = "nmain-block">
+            <nav class = "nmain-block__nav swiper">
+                <ul class = "nmain-block__ul nmain-ul swiper-wrapper">
+                    <li class = "nmain-ul__li swiper-slide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт ноутбуков</p><div class="nmain-ul__go"></div></a></li>
+                    <li class = "nmain-ul__li swiper-slide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт планшетов</p><div class="nmain-ul__go"></div></a></li>
+                    <li class = "nmain-ul__li swiper-slide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт ПК</p><div class="nmain-ul__go"></div></a></li>
+                    <li class = "nmain-ul__li swiper-slide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт  мониторов</p><div class="nmain-ul__go"></div></a></li>
+    
+                    <li class = "nmain-ul__li swiper-slide nhide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт ноутбуков</p><div class="nmain-ul__go"></div></a></li>
+                    <li class = "nmain-ul__li swiper-slide nhide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт ноутбуков</p><div class="nmain-ul__go"></div></a></li>
+                    <li class = "nmain-ul__li swiper-slide nhide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт ноутбуков</p><div class="nmain-ul__go"></div></a></li>
+                    <li class = "nmain-ul__li placeholder swiper-slide nhide"><a href ="#" class = "nmain-block__link"><p class = "nmain-ul__text">Ремонт ноутбуков</p><div class="nmain-ul__go"></div></a></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </nav>
+            <button type = "button" class="nmain-block__read-more">Показать все</button>
+         </div>
+
+
+         <div class = "pheader-block">
+            <div class ="pheader-block__container">
+                <p class = "pheader-block__text">ЦЕНЫ НА УСЛУГИ</p>
+            </div>   
+         </div> 
+
+         <div class = "pmain-block">
+            <nav class = "pmain-block__nav swiper">
+                <ul class = "pmain-block__ul main-ul swiper-wrapper">
+
+                    <li class = "pmain-ul__li swiper-slide">
+                        <p class = "pmain-ul__text pmain-ul__text-special">Ремонтные услуги</p>
+                        <p class = "pmain-ul__price pmain-ul__price-special">Цена</p>
+                        <p class = "pmain-ul__time  pmain-ul__time-special">Срок</p>
+                        <div class="pmain-ul__go placeholder"></div>
+                        </li>
+
+                    <li class = "pmain-ul__li swiper-slide"><a href ="#" class = "pmain-block__link">
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__text pmain-ul__text-special">Ремонтные услуги</p>
+                        <p class = "pmain-ul__text">Диагностика</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__price pmain-ul__price-special">Цена</p>    
+                        <p class = "pmain-ul__price">Бесплатно</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__time  pmain-ul__time-special">Срок</p>
+                        <p class = "pmain-ul__time">30 мин</p>
+                        </div>
+
+                        <div class="pmain-ul__go"></div>
+                        </a></li>
+                        
+
+                    <li class = "pmain-ul__li swiper-slide"><a href ="#" class = "pmain-block__link">
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__text pmain-ul__text-special">Ремонтные услуги</p>
+                        <p class = "pmain-ul__text">Замена дисплея</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__price pmain-ul__price-special">Цена</p>  
+                        <p class = "pmain-ul__price">1 000 ₽</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__time  pmain-ul__time-special">Срок</p>
+                        <p class = "pmain-ul__time">30-120 мин</p>
+                        </div>
+
+                        <div class="pmain-ul__go"></div>
+                        </a></li>
+                        
+
+                    <li class = "pmain-ul__li swiper-slide"><a href ="#" class = "pmain-block__link">
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__text pmain-ul__text-special">Ремонтные услуги</p>
+                        <p class = "pmain-ul__text">Замена полифонического динамика</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__price pmain-ul__price-special">Цена</p>  
+                        <p class = "pmain-ul__price">1 000 ₽</p>
+                         </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__time  pmain-ul__time-special">Срок</p>
+                        <p class = "pmain-ul__time">30-120 мин</p>
+                        </div>
+
+                        <div class="pmain-ul__go"></div>              
+                        </a></li>
+                        
+
+                    <li class = "pmain-ul__li swiper-slide"><a href ="#" class = "pmain-block__link">
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__text pmain-ul__text-special">Ремонтные услуги</p>
+                        <p class = "pmain-ul__text">Тестирование с выдачей технического заключения</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__price pmain-ul__price-special">Цена</p> 
+                        <p class = "pmain-ul__price">1 000 ₽</p>
+                        </div>
+  
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__time  pmain-ul__time-special">Срок</p>
+                        <p class = "pmain-ul__time">30-120 мин</p>
+                        </div>
+
+                        <div class="pmain-ul__go"></div>
+                        </a></li>
+                        
+
+                    <li class = "pmain-ul__li swiper-slide"><a href ="#" class = "pmain-block__link">
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__text pmain-ul__text-special">Ремонтные услуги</p>
+                        <p class = "pmain-ul__text">Замена программного обеспечения</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__price pmain-ul__price-special">Цена</p> 
+                        <p class = "pmain-ul__price">1 000 ₽</p>
+                        </div>
+
+                        <div class = "pmain-ul__wparer-text">
+                        <p class = "pmain-ul__time  pmain-ul__time-special">Срок</p>
+                        <p class = "pmain-ul__time">30-120 мин</p>
+                         </div>
+
+                        <div class="pmain-ul__go"></div>
+                        </a></li>
+
+                </ul>
+                <div class="swiper-pagination"></div>
+            </nav>
+
+         <div class = "description">
+            <p class = "description__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+            <a href = "#" class = "description__link"><p class = description__text-link>Получить коммерческое предложение</p></a>
+         </div>
+
+         
+
+        </div>  <!--main__container--> 
+    </main>
+
+
+    <footer class = "footer">
+        <div class = "footer__container">
+        <div class = "footer__wrapper">
+        
+
+        <a href = "#" class = "footer__link">
+            <p class = "footer__team">© 2019 CPS
+            Разработано командой Apesong </p>
+        </a>
+
+        <a href = "#" class = "footer__link">
+        <p class = "footer__policy">Политика конфиденциальности</p>
+        </a>
+
+        <a href = "#" class = "footer__link">
+        <p class = "footer__warning">Информация, размещенная на данной странице, не является публичной офертой</p>
+        </a>
+
+        </div>
+        </div>
+    </footer>
+
+</div> <!--page-wrapper-->  
+
+
+    <aside class="block">
+        <div class="block__container block__container-active">
+            
+            <div class="header-menu">
+                <div class="header-menu__container">
+                    
+                    <div class="header-menu__top-container">
+
+                    <button type="button" class="header-menu__cancel"></button>
+                    
+                    <a class="header-menu__cps">
+                    <div class="header-menu__cps-img"></div>
+                    </a>
+
+                    <a href="#" class="header-menu__search">
+                    <div class="header-menu__search-img"></div>
+                    </a>
+
+                    </div>
+
+                    <nav class="header-menu__nav">
+                        <ul class="header-menu__ul menu-ul">
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link menu-ul__active">Ремонт техники</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Услуги и сервисы</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Корпоративным клиентам</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Продавцам техники</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Партнерам</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Производителям</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Наши сервисные центры</a></li>
+                        <li class="menu-ul__li"><a href="#" class="menu-ul__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-menu__container">
+                   
+                    <div class="footer-menu__contacts">
+                            
+                            <a href="#" class="footer-menu__call">
+                            <div class="footer-menu__call-img"></div>
+                            </a>
+        
+                            <a href="#" class="footer-menu__chat">
+                            <div class="footer-menu__chat-img"></div>
+                            </a>
+        
+                            <a href="#" class="footer-menu__profile">
+                            <div class="footer-menu__profile-img"></div>
+                            </a>
+
+
+                            <a href="#" class="footer-menu__mail">mail@cps.com</a>
+                            <a href="tel:88008908900" class="footer-menu__tel">8 800 890 8900</a>
+                    
+                    </div>
+                    
+                            <ul class="footer-menu__lang menu-lang">
+                                <li class="menu-lang__li"><a href="#" class="menu-lang__lang menu-lang__active">RU</a></li>
+                                <li class="menu-lang__li"><a href="#" class="menu-lang__lang">EN</a></li>
+                                <li class="menu-lang__li"><a href="#" class="menu-lang__lang">CH</a></li>
+                            </ul>
+
+                </div>
+            </div>
+
+        </div> 
+        <div class ="page-blur page-blur-active" ></div>
+    </aside>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+// Prices
+
+//SectionMain
+$border-active-color: #B8FFEC;
+$active-link: #7E7E82;
+$letters-link-color: #1B1C21;
+$header-color: #FFFFFF;
+$main-color: #F8F8F8;
+
+// MobileMeanu
+$shadow-color-one: #0E185033;
+$shadow-color-two: #454F7E05;
+
+//Feedback
+$Data-and-policy:#FF3E79;
+
+//footer
+$link-color: #1B1C21;
+
+//devices
+
+//brands
+$border-top-color: #D9FFF5;
+$li-border-color: #EAEAEA;
+$pagination-color: #DDDDDD;
+$pagination-active-color:#B5B6BC;
+
+
+$font-family:'TT Lakes';
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Bold.eot');
+  src: local('../fonts/TT Lakes Bold'), local('TTLakes-Bold'),
+      url('../fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTLakes-Bold.woff') format('woff'),
+      url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+      url('../fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTLakes-Regular.woff') format('woff'),
+      url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+      url('../fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTLakes-Medium.woff') format('woff'),
+      url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.page-container-fixed {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: center;
+  position: fixed;
+ 
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  position: relative;
+}
+
+.page-wrapper {
+  max-width: 100%;
+}
+
+
+
+.swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: $pagination-color;
+}
+
+.swiper-pagination-bullet-active {
+  background: $pagination-active-color;
+}
+
+
+
+
